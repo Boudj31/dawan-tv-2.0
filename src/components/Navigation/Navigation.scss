@@ -1,0 +1,38 @@
+.nav__dark {
+    background-color: black;
+}
+.navigation {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 90px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+
+   
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+
+        .col {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .links {
+            display: flex;
+            gap: 20px;
+
+            .link {
+                color: white;
+            }
+
+        }
+
+        
+    }
+}
